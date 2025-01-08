@@ -16,7 +16,7 @@ fig.add_trace(
         x=columna2,
         y=columna1,
         mode='lines+markers',
-        line=dict(color='blue', width=3, dash='dash'),
+        line=dict(color='red', width=3, dash='dash'),
         marker=dict(size=10, color='orange', symbol='circle'),
         name='Datos de Adopción'
     )
@@ -24,7 +24,7 @@ fig.add_trace(
 
 fig.update_layout(
     title=dict(
-        text="Gráfica de Adopción de Tratados",
+        text="Gráfica de Tratados de Adopcion",
         font=dict(size=24, color='darkblue'),
         x=0.5  
     ),

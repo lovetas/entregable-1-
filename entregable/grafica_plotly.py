@@ -43,10 +43,13 @@ fig.update_layout(
     ),
     plot_bgcolor='white',
     paper_bgcolor='whitesmoke',
-    legend=dict(
-        title='Leyenda',
-        font=dict(size=14)
+     legend=dict(
+        title="Leyenda",
+        font=dict(size=14),
+        bordercolor='gray',
+        borderwidth=1,
+        x=0.9,  # Posición de la leyenda
+        y=1)
     )
-)
-fig.show()
 
+fig.show()
